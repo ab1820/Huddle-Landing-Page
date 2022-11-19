@@ -18,3 +18,25 @@ h5,
 h6 {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Mobile Design First */
+@media only screen and (min-width: 375px) and (max-width: 799px) {
+.desktop-background {
+    display: none;
+}
+
+.mobile-desktop {
+    max-width: 375px;
+    max-height: 100vh;
+}
+
+
+}
+
+
+/* Desktop Design */
+@media screen and (min-width: 800px) {
+    .mobile-background {
+        display: none;
+    }
+}
