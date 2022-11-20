@@ -95,6 +95,24 @@ h6 {
         font-size: 0.7rem;
         margin-top: 1rem;
     }
+
+    /* Hover Effects */
+    .btn:hover,
+    .btn:active {
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+        cursor: pointer;
+    }
+
+    .fa-brands:hover,
+    .fa-brands:active {
+        color: hsl(300, 69%, 71%);
+        cursor: pointer;
+    }
+    .attribution a:hover {
+        color: hsl(300, 69%, 71%);
+        cursor: pointer;
+    }
 }
 
 
@@ -105,4 +123,76 @@ h6 {
     .mobile{
         display: none;
     }
+    body {
+        background-color: hsl(257, 40%, 49%);
+    }
+    .logo {
+        transform: scale(0.8);
+        position: absolute;
+        top: 2rem;
+        left: 2.5rem;
+    }
+    .mockups {
+        position: absolute;
+        top: 12rem;
+        left: 4rem;
+    }
+    .paragraph {
+        position: absolute;
+        top: 15rem;
+        width: 400px;
+        left: 53rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        width: 460px;
+        line-height: 1.6rem;
+        margin-top: 20px;
+    }
+    .btn {
+        display: block;
+        margin-top: 1rem;
+        background-color: white;
+        color:hsl(257, 40%, 49%);
+        padding: 11px 50px;
+        border-radius: 1.5em;
+        border: none;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+        font-family: 'Poppins', sans-serif;
+    }
+    .icons {
+        position: absolute;
+        top: 45rem;
+        left: 75rem;
+        font-size: 1.8rem;
+    }
+    .fa-brands {
+        margin: 0 5px;
+    }
+    .attribution {
+        font-size: 0.7rem;
+        margin-top: -2rem;
+    }
+
+
+
+        /* Hover Effects */
+        .btn:hover,
+        .btn:active {
+            background-color: hsl(300, 69%, 71%);
+            color: white;
+            cursor: pointer;
+        }
+    
+        .fa-brands:hover,
+        .fa-brands:active {
+            color: hsl(300, 69%, 71%);
+            cursor: pointer;
+        }
+        .attribution a:hover {
+            color: hsl(300, 69%, 71%);
+            cursor: pointer;
+        }
 }

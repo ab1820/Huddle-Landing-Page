@@ -17,6 +17,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Overview
 My 3rd Frontend Mentor Challenge, this time I am building a landing page. This will be the first landing page that I have built.
+Built with mobile design first in mind. 
+I like to finish the mobile version first, then I set the media to min-width: 800px, and design the desktop version from that. 
 
 ### The challenge
 
