@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 h1,
@@ -17,26 +18,91 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 /* Mobile Design First */
 @media only screen and (min-width: 375px) and (max-width: 799px) {
-.desktop-background {
-    display: none;
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: hsl(257, 40%, 49%);
+    }
+    .mobile {
+        max-width: 375px;
+        text-align: center;
+        margin: auto;
+    }
+    .logo {
+        position: absolute;
+        transform: scale(0.5);
+        top: 1rem;
+        left: -2.2rem;
+    }
+    .mockups {
+        transform: scale(0.45);
+        left: -10.5rem;
+        top: -1rem;
+        position: absolute;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        padding-top: 1rem;
+    }
+    p {
+        width: 340px;
+        text-align: center;
+        margin: auto;
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        word-spacing: 0.1rem;
+        margin-bottom: 1.8rem;
+        line-height: 1.7rem;
+    }
+    .btn {
+        display: block;
+        margin: auto;
+        background-color: white;
+        color:hsl(257, 40%, 49%);
+        padding: 10px 80px;
+        border-radius: 1.5em;
+        border: none;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-top: 4.5rem;
+        text-align: center;
+        font-size: 1.8rem;
+        align-items: center;
+        align-content: center;
+    }
+    .fa-brands {
+        margin: 0 5px;
+    }
+    .attribution {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
 }
 
-.mobile-desktop {
-    max-width: 375px;
-    max-height: 100vh;
-}
 
-
-}
 
 
 /* Desktop Design */
 @media screen and (min-width: 800px) {
-    .mobile-background {
+    .mobile{
         display: none;
     }
 }
