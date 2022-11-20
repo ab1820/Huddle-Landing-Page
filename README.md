@@ -29,13 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Design](https://user-images.githubusercontent.com/114027684/202903828-0f4164ed-65ac-44a8-8e89-cbe48127a1c5.png)
+![Mobile Design](https://user-images.githubusercontent.com/114027684/202903841-03e1cbb1-9633-44e3-b34e-50f8fece2c68.png)
 
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ab1820.github.io/Huddle-Landing-Page/)
 
 ## My process
 
@@ -64,4 +65,6 @@ But for now, mobile first, responsiveness, CSS Grid and Flexbox are what I am cu
 
 - Frontend Mentor - [@ab1820](https://www.frontendmentor.io/profile/ab1820)
 - Github - [@ab1820](https://www.github.com/ab1820)
+
+
 
